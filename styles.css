@@ -1,0 +1,165 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Esquema de colores y fondo */
+body {
+    color: #333;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background:  #03320b;
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+/* Barra de navegación */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #3f8b18;
+}
+
+/* Contenido principal */
+main {
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    background-color: #92adb7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    font-size: 2em;
+    color: #1111dd;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 1.5em;
+}
+
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+    color: #333;
+}
+
+form input, form textarea {
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #004080;
+    color: #fff;
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Pie de página */
+footer {
+    background-color: #03320b;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 1em;
+}
+/* Estilos para la carátula */
+#caratula {
+    background-color: #481e1e;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.caratula-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.caratula-img {
+    width: 300px; /* Ajusta el tamaño de la imagen */
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.datos-principales {
+    font-size: 1.2em;
+}
+
+.datos-principales h2 {
+    color: #474343;
+}
+
+.datos-principales p {
+    margin: 10px 0;
+    color: #ffffff;
+}
+
+.datos-principales strong {
+    color: #838383;
+}
